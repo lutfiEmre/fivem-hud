@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animated-progress {
+    width: 300px;
+    height: 30px;
+
+
+    overflow: hidden;
+    position: relative;
+}
+.asdasd{
+    -webkit-mask-image: url("../src/img/speedo4bg.svg");
+    -webkit-mask-size: 196px;
+}
+.animated-progress span {
+    height: 100%;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+}
+
+.progress-blue span {
+    background-color: blue;
+}
+.progress-green span {
+    background-color: green;
+}
+.progress-purple span {
+    background-color: indigo;
+}
+.progress-red span {
+    background-color: red;
+}
